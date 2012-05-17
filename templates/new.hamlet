@@ -1,0 +1,5 @@
+<h1>Create new wiki page
+
+<form method=post action=@{NewR} enctype=#{formEnctype}>
+  ^{formWidget}
+  <input type="submit" value="Create Page" class="btn btn-success">

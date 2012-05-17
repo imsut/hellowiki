@@ -1,0 +1,10 @@
+<h1>Edit wiki page
+
+<form method=post action=@{url} enctype=#{formEnctype}>
+  ^{formWidget}
+  <input type="submit" value="Update Page" class="btn btn-success">
+
+<p>
+  <a href=@{WikiR page}>
+    <i class="icon-circle-arrow-left">
+    Cancel

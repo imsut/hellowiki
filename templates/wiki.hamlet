@@ -1,0 +1,8 @@
+<h1>#{title}
+
+<div class="hero-unit">#{preEscapedToMarkup bodyHtml}
+
+<p>
+  <a href=@{EditR page}>
+    <i class="icon-pencil">
+    Edit

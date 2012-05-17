@@ -1,0 +1,20 @@
+Default: &defaults
+  database: hellowiki.sqlite3
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: hellowiki_test.sqlite3
+  <<: *defaults
+
+Staging:
+  database: hellowiki_staging.sqlite3
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: hellowiki_production.sqlite3
+  poolsize: 100
+  <<: *defaults
